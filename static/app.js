@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io('https://chatted-yu4w.onrender.com'); // Render backend URL
 
 // Landing page elements
 const landingPage = document.getElementById('landing-page');
